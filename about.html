@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--My style sheet-->
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!--Type Links-->
+    <link rel="stylesheet" href="https://use.typekit.net/grh0nnw.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Hover stylesheet-->
+    <link href="css/hover.css" rel="stylesheet" media="all">
+
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+
+    <title>Morgane: About</title>
+</head>
+
+<body>
+
+    <!-------------------------Nav----------------------->
+
+    <header>
+        <div id="navbar" class="container-fluid">
+            <div class="mobile_navbar container" id="before">
+                <div class="row">
+                    <div class="col-8 col-sm-10">
+                        <a href="index.html">
+                            <p class="other_page">Morgane</p>
+                        </a>
+                    </div>
+                    <div class="col-4 col-sm-2">
+                        <a href="#">
+                            <button onclick="showMobileMenu();" class="menu_button right_align">Menu</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desktop_navbar container">
+                <div class="row">
+                    <div class="col-sm-2 col-md-1 col-lg-1 col-xl-1">
+                        <a href="index.html">
+                            <p class="other_page">
+                                Morgane
+                            </p>
+                        </a>
+                    </div>
+                    <div class="offset-sm-4 col-sm-2 offset-md-5 col-md-2 offset-lg-8 col-lg-1  offset-xl-8 col-xl-1">
+                        <a href="work.html">
+                            <p class="other_page right_align">
+                                Work
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1 ">
+                        <a href="play.html">
+                            <p class="other_page right_align">
+                                Play
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                        <a href="about.html">
+                            <p class="current_page right_align">
+                                About
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <!--MENU OVERLAY SCREEN-->
+
+    <div id="mobile_menu" class="container-fluid">
+        <div class="mobile_navbar">
+            <div class="container">
+                <div class="row">
+
+                    <div class="offset-9 col-3 offset-sm-10 col-sm-2"><a href="#">
+                            <button onclick="hideMobileMenu();" class="menu_button right_align">Close</button>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        '
+
+        <div class="container bottom">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <h1 class="mobile_nav_headings other_page">Morgane</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="work.html">
+                                <h1 class="mobile_nav_headings other_page">Work</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="play.html">
+                                <h1 class="mobile_nav_headings other_page">Play</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <h1 class="mobile_nav_headings current_page">About</h1>
+                            </a>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------END OF NAVIGATION-------------------->
+
+    <div id="hide">
+
+        <div class="container-fluid dark_bg">
+
+            <div class="container">
+                <div class="spacer_25"></div>
+                <div class="row">
+                    <div class="col-9 col-sm-9 col-md-8 col-lg-8 col-xl-8">
+                        <div class="spacer_25"></div>
+                        <p class="my_h1 left_align beige_colour">A TYPICAL STUDIO DAY</p>
+                    </div>
+                </div>
+                   <div class="row">
+                    <div class=" offset-8 col-4 offset-sm-8 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <img src="imgs/about/wake_up_2.gif" alt="Wake Up" width=100% class="roll_over" id="wake_up">
+                        <img src="imgs/about/gym.gif" alt="Gym" width=100% class="roll_over" id="gym">
+                        <img src="imgs/about/breakfast.gif" alt="Breakfast" width=100% class="roll_over" id="breakfast">
+                        <img src="imgs/about/tea_1.jpg" alt="Tea Time" width="100%" class="roll_over" id="tea_1">
+                        <img src="imgs/about/briefing.jpg" alt="Briefing" width="100%" class="roll_over" id="briefing">
+                        <img src="imgs/about/get_designing.jpeg" alt="Get Designing" width="100%" class="roll_over" id="get_designing">
+                        <img src="imgs/about/tea_2.gif" alt="Tea Time" width="100%" class="roll_over" id="tea_2">
+                        <img src="imgs/about/lunch.gif" alt="Lunch" width="100%" class="roll_over" id="lunch">
+                        <img src="imgs/about/more_work.jpg" alt="Back to Work" width="100%" class="roll_over" id="back_to_work">
+                        <img src="imgs/about/snack.jpg" alt="Snack" width="100%" class="roll_over" id="snack">
+                        <img src="imgs/about/head_home.gif" alt="Heading Home" width="100%" class="roll_over" id="home">
+                        <img src="imgs/about/dinner.jpg" alt="Dinner" width="100%" class="roll_over" id="dinner">
+                        <img src="imgs/about/back_to_work.gif" alt="More Work" width="100%" class="roll_over" id="more_work">
+                        <img src="imgs/about/youtube.gif" alt="YouTube" width="100%" class="roll_over" id="youtube">
+                        <img src="imgs/about/reading.gif" alt="Reading" width="100%" class="roll_over" id="reading">
+                        <img src="imgs/about/the_end.gif" alt="The End" width="100%" class="roll_over" id="end">
+                    </div>
+                </div>
+                <div class="spacer_25"></div>
+                <div class="row">
+                   <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                   <div class="about_container" >
+                           <span class="my_h2 beige_colour time" onmouseover="showWakeUp();" onmouseout="hideWakeUp();" id="wake_up_text_1">
+                            06:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showWakeUp();" onmouseout="hideWakeUp();"></span>
+                        <span class="my_h2" onmouseover="showWakeUp();" onmouseout="hideWakeUp();" id="wake_up_text_2">
+                        WAKE UP
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showGym();" onmouseout="hideGym();" id="gym_text_1">
+                            07:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showGym();" onmouseout="hideGym();"></span>
+                        <span class="my_h2" onmouseover="showGym();" onmouseout="hideGym();" id="gym_text_2">
+                            HIT THE GYM
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showBreakfast();" onmouseout="hideBreakfast();" id="breakfast_text_1">
+                            09:30
+                        </span>
+                        <span class="width_spacer" onmouseover="showBreakfast();" onmouseout="hideBreakfast();"></span>
+                        <span class="my_h2" onmouseover="showBreakfast();" onmouseout="hideBreakfast();" id="breakfast_text_2">
+                            BREKKY TIME
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showTea1();" onmouseout="hideTea1();" id="tea_text_1">
+                            09:50
+                        </span>
+                        <span class="width_spacer" onmouseover="showTea1();" onmouseout="hideTea1();"></span>
+                        <span class="my_h2" onmouseover="showTea1();" onmouseout="hideTea1();" id="tea_text_2">
+                        TEA W THE GIRLS
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showBriefing();" onmouseout="hideBriefing();" id="briefing_text_1">
+                            10:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showBriefing();" onmouseout="hideBriefing();"></span>
+                        <span class="my_h2" onmouseover="showBriefing();" onmouseout="hideBriefing();" id="briefing_text_2">
+                            BRIEFING
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time"
+                           onmouseover="showGetDesigning();" onmouseout="hideGetDesigning();" id="get_designing_text_1">
+                            10:30
+                        </span>
+                        <span class="width_spacer" onmouseover="showGetDesigning();" onmouseout="hideGetDesigning();"></span>
+                        <span class="my_h2" onmouseover="showGetDesigning();" onmouseout="hideGetDesigning();" id="get_designing_text_2">
+                            GET DESIGNING
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showTea2();" onmouseout="hideTea2();" id="tea2_text_1">
+                            12:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showTea2();" onmouseout="hideTea2();"></span>
+                        <span class="my_h2" onmouseover="showTea2();" onmouseout="hideTea2();" id="tea2_text_2">
+                       TEA BREAK
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showLunch();" onmouseout="hideLunch();" id="lunch_text_1">
+                            13:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showLunch();" onmouseout="hideLunch();"></span>
+                        <span class="my_h2" onmouseover="showLunch();" onmouseout="hideLunch();" id="lunch_text_2">
+                            Lunch? Lunch. 
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showBackToWork();" onmouseout="hideBackToWork();"id="work_text_1">
+                            14:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showBackToWork();" onmouseout="hideBackToWork();"></span>
+                        <span class="my_h2" onmouseover="showBackToWork();" onmouseout="hideBackToWork();" id="work_text_2">
+                            BACK TO WORK
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showSnack();" onmouseout="hideSnack();" id="snack_text_1">
+                            16:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showSnack();" onmouseout="hideSnack();"></span>
+                        <span class="my_h2" onmouseover="showSnack();" onmouseout="hideSnack();" id="snack_text_2">
+                        SNACK TIME
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showHome();" onmouseout="hideHome();" id="home_text_1">
+                            17:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showHome();" onmouseout="hideHome();"></span>
+                        <span class="my_h2" onmouseover="showHome();" onmouseout="hideHome();" id="home_text_2">
+                            HEAD HOME
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showDinner();" onmouseout="hideDinner();" id="dinner_text_1">
+                            18:30
+                        </span>
+                        <span class="width_spacer" onmouseover="showDinner();" onmouseout="hideDinner();"></span>
+                        <span class="my_h2" onmouseover="showDinner();" onmouseout="hideDinner();" id="dinner_text_2">
+                            DINNER
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showMoreWork();" onmouseout="hideMoreWork();" id="work2_text_1">
+                            20:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showMoreWork();" onmouseout="hideMoreWork();"></span>
+                        <span class="my_h2" onmouseover="showMoreWork();" onmouseout="hideMoreWork();" id="work2_text_2">
+                        LIL BIT MORE WORK
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showYoutube();" onmouseout="hideYoutube();" id="youtube_text_1">
+                            22:00
+                        </span>
+                        <span class="width_spacer" onmouseover="showYoutube();" onmouseout="hideYoutube();"></span>
+                        <span class="my_h2" onmouseover="showYoutube();" onmouseout="hideYoutube();" id="youtube_text_2">
+                            TOO MUCH YOUTUBE
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showReading();" onmouseout="hideReading();" id="reading_text_1">
+                            23:30
+                        </span>
+                        <span class="width_spacer" onmouseover="showReading();" onmouseout="hideReading();"></span>
+                        <span class="my_h2" onmouseover="showReading();" onmouseout="hideReading();" id="reading_text_2">
+                            READING TIME
+                        </span>
+                   </div>
+                   <div class="about_container">
+                           <span class="my_h2 beige_colour time" onmouseover="showEnd();" onmouseout="hideEnd();" id="end_text_1">
+                            00:30
+                        </span>
+                        <span class="width_spacer" onmouseover="showEnd();" onmouseout="hideEnd();"></span>
+                        <span class="my_h2" onmouseover="showEnd();" onmouseout="hideEnd();" id="end_text_2">
+                            THE END
+                        </span>
+                   </div>
+                   
+                    </div> 
+                    
+                </div>
+                
+                
+            
+
+
+
+
+
+
+                <div class="spacer_25"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid light_bg front">
+            <div class="container">
+                <div class="spacer_50"></div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-9 col-lg-7 col-xl-7">
+                        <p class="my_h2 left_align beige_colour">ABOUT ME</p>
+                        <div class="spacer_25"></div>
+                        <p class="work_caption">
+                            Hi, I’m Morgane! I am a student at the Dun Laoghaire Institute of Art, Design and Technology and I am currently in my third year of study of Visual Communication Design. I am an inter-disciplinary designer with a special place in my heart for motion, digital and web design.
+                            <br><br>
+                            I am used to working under pressure and learn quickly on my feet. Highly-adaptable, I pick up new softwares quickly and particularly enjoy coding. I always put every effort into any task I am given and receive satisfaction from my work.
+                            <br><br>
+                            If you have any queries please do not hesistate to contact me.
+                            <br>G’wan make the first move.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-12 offset-md-1 col-md-2 offset-lg-1 col-lg-4 offset-xl-1 col-xl-4">
+
+                        <img src="imgs/profile_pink_1.jpg" alt="Profile photo" width="100%" class="image_desktop">
+
+                    </div>
+                </div>
+                <div class="spacer_50"></div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-9">
+                        <p class="my_h2 left_align beige_colour">STALK ME SOME MORE...</p>
+                    </div>
+                </div>
+                <div class="spacer_25"></div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+
+                        <div class="vertical_center" onmouseover="instaPink();" onclick="instaPink();" onmouseout="instaBeige();">
+                            <a href="https://www.instagram.com/morgane.aesthetic/?hl=en" target="_blank">
+                                <svg class="contact_icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+                                    <style type="text/css">
+                                        #insta_fill {
+                                            fill: #FFFFEC;
+                                        }
+
+                                        #insta_line, #insta_line_1, #insta_line_2 {
+                                            fill: #262628;
+                                        }
+
+                                    </style>
+                                    <path id="insta_fill" d="M725,999.6H275C123.5,999.6,0.8,876.8,0.8,725.4V275.3C0.8,123.9,123.5,1.1,275,1.1H725
+	c151.4,0,274.2,122.8,274.2,274.2v450.1C999.2,876.8,876.5,999.6,725,999.6z" />
+                                    <path id="insta_line" d="M728.5,999.6h-457c-72.3,0-140.3-28.2-191.4-79.3C28.9,869.1,0.8,801.2,0.8,728.8v-457
+	c0-72.3,28.2-140.3,79.3-191.4C131.2,29.3,199.2,1.1,271.5,1.1h457c72.3,0,140.3,28.2,191.4,79.3c51.1,51.1,79.3,119.1,79.3,191.4
+	v457c0,72.3-28.2,140.3-79.3,191.4C868.8,971.4,800.8,999.6,728.5,999.6z M271.5,91.1c-99.7,0-180.7,81.1-180.7,180.7v457
+	c0,99.7,81.1,180.7,180.7,180.7h457c99.7,0,180.7-81.1,180.7-180.7v-457c0-99.7-81.1-180.7-180.7-180.7H271.5z" />
+                                    <path id="insta_line_1" d="M500,757.4c-68.7,0-133.2-26.7-181.8-75.3S242.9,569,242.9,500.3s26.7-133.2,75.3-181.8s113.1-75.3,181.8-75.3
+	s133.2,26.7,181.8,75.3s75.3,113.1,75.3,181.8s-26.7,133.2-75.3,181.8S568.7,757.4,500,757.4z M500,333.2
+	c-92.1,0-167.1,75-167.1,167.1s75,167.1,167.1,167.1s167.1-75,167.1-167.1S592.1,333.2,500,333.2z" />
+                                    <circle id="insta_line_2" cx="769" cy="233.3" r="64.8" />
+                                </svg>
+                            </a>
+                            <div class="width_spacer"></div>
+
+
+                            <a href="https://www.instagram.com/morgane.aesthetic/?hl=en" target="_blank"><span onmouseover="instaPink();" onclick="instaPink();" onmouseout="instaBeige();" id="insta_text" class="quote left_align bold">morgane.aesthetic</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+
+                        <div onmouseover="emailPink();" onclick="emailPink();" onmouseout="emailBeige();" class="vertical_center">
+                            <svg class="contact_icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+                                <style type="text/css">
+                                    #email_fill {
+                                        fill: #FFFFEC;
+                                    }
+
+                                    #email_line {
+                                        fill: #262628;
+                                    }
+
+                                </style>
+                                <path id="email_fill" d="M723.7,999.6H273.6C122.2,999.6-0.6,876.8-0.6,725.4V275.3C-0.6,123.9,122.2,1.1,273.6,1.1h450.1
+	c151.4,0,274.2,122.8,274.2,274.2v450.1C997.9,876.8,875.1,999.6,723.7,999.6z" />
+                                <path id="email_line" d="M918.6,80.4C867.5,29.3,799.5,1.1,727.2,1.1h-457c-72.3,0-140.3,28.2-191.4,79.3
+	C27.6,131.5-0.6,199.5-0.6,271.8v457c0,72.3,28.2,140.3,79.3,191.4c51.1,51.1,119.1,79.3,191.4,79.3h457
+	c72.3,0,140.3-28.2,191.4-79.3c51.1-51.1,79.3-119.1,79.3-191.4v-457C997.9,199.5,969.7,131.5,918.6,80.4z M270.2,91.1h457
+	c56.7,0,107.5,26.3,140.6,67.3l-368.3,343L130.2,157.6C163.4,117,213.8,91.1,270.2,91.1z M907.9,728.8
+	c0,99.7-81.1,180.7-180.7,180.7h-457c-99.7,0-180.7-81.1-180.7-180.7v-457c0-9.3,0.7-18.4,2.1-27.3l377.3,351.3
+	c8.6,8,19.7,12.1,30.7,12.1s22-4,30.7-12.1L906,245.8c1.2,8.5,1.9,17.2,1.9,26V728.8z" />
+                            </svg>
+
+
+                            <div class="width_spacer"></div>
+
+
+                            <span id="email_text" class="quote left_align bold">morganekenneally@gmail.com</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+
+                        <div class="vertical_center" onmouseover="phonePink();" onclick="phonePink();" onmouseout="phoneBeige();">
+                            <svg class="contact_icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+                                <style type="text/css">
+                                    #phone_fill {
+                                        fill: #FFFFEC;
+                                    }
+
+                                    #phone_line_1, #phone_line_2 {
+                                        fill: #262628;
+                                    }
+
+                                </style>
+                                <path id="phone_fill" d="M724.7,999.6H274.6C123.2,999.6,0.4,876.8,0.4,725.4V275.3C0.4,123.9,123.2,1.1,274.6,1.1h450.1
+	c151.4,0,274.2,122.8,274.2,274.2v450.1C998.9,876.8,876.1,999.6,724.7,999.6z" />
+                                <path id="phone_line_1" d="M728.2,999.6h-457c-72.3,0-140.3-28.2-191.4-79.3C28.6,869.1,0.4,801.2,0.4,728.8v-457
+	c0-72.3,28.2-140.3,79.3-191.4C130.9,29.3,198.8,1.1,271.2,1.1h457c72.3,0,140.3,28.2,191.4,79.3c51.1,51.1,79.3,119.1,79.3,191.4
+	v457c0,72.3-28.2,140.3-79.3,191.4C868.5,971.4,800.5,999.6,728.2,999.6z M271.2,91.1c-99.7,0-180.7,81.1-180.7,180.7v457
+	c0,99.7,81.1,180.7,180.7,180.7h457c99.7,0,180.7-81.1,180.7-180.7v-457c0-99.7-81.1-180.7-180.7-180.7H271.2z" />
+                                <path id="phone_line_2" d="M410.7,362.9c-10.6,10.5-23.6,20.7-38.6,25.9l2.1-0.8c-29.9,10.3-49.2,54.6-32.8,86.8l0,0
+	c39.1,76.7,112.7,165.1,188,203c31.2,15.8,72.9,0.1,84.9-28c0.9-2.2,1.9-4.3,3.1-6.3c4.5-7.9,15.7-26.8,23.9-35
+	c32.5-32.9,81.4-28.3,137.1,7.1C834,650.9,863,705.1,843,736.6c-35,54.1-111.7,111-207.8,111h0.6c-256.4,0-464.3-214.4-464.3-478.8
+	c0-96.1,56.9-172.8,111-207.8c31.5-20,85.7,9,121.1,64.7S443.5,330.4,410.7,362.9z" />
+                            </svg>
+
+
+                            <div class="width_spacer"></div>
+
+
+                            <span id="phone_text" class="quote left_align bold">086–123–4567</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="spacer_25"></div>
+            </div>
+        </div>
+
+
+
+
+        <!-------------------MOBILE FOOTER----------------->
+        <footer class="front_1">
+            <div class="container-fluid">
+                <div class="mobile_footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-sm-2">
+                                <p class="footer_type">Insta:<br>E-mail<br>Mobile:</p>
+                            </div>
+                            <div class="col-9 col-sm-10">
+                                <p class="footer_type"><span class="regular">morgane.aesthetic<br>morganekenneally@gmail.com<br>086–123–4567</span></p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <!--DESKTOP FOOTER-->
+
+                <div class="desktop_footer">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <p class="footer_type">Instagram: <span class="regular">morgane.aesthetic</span></p>
+                            </div>
+
+                            <div class=" col-md-5 col-lg-4 col-xl-4">
+                                <p class="footer_type center_align">E-mail: <span class="regular">morganekenneally@gmail.com</span></p>
+                            </div>
+
+                            <div class=" col-md-3 offset-lg-1 col-lg-3 offset-xl-1 col-xl-3">
+                                <p class="footer_type right_align">Mobile: <span class="regular">086–123–4356</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <script>
+        function showMobileMenu() {
+            var x = document.getElementById("mobile_menu");
+            var y = document.getElementById("hide");
+            var z = document.getElementById("before");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "block";
+                z.style.display = "block";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+            }
+        }
+
+        function hideMobileMenu() {
+            var x = document.getElementById("mobile_menu");
+            var y = document.getElementById("hide");
+            var z = document.getElementById("before");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+            } else {
+                x.style.display = "none";
+                y.style.display = "block";
+                z.style.display = "block";
+            }
+        }
+
+        function instaPink() {
+            var a = document.getElementById("insta_line").style.fill = "#FF0099";
+            var a = document.getElementById("insta_line_1").style.fill = "#FF0099";
+            var a = document.getElementById("insta_line_2").style.fill = "#FF0099";
+
+            var b = document.getElementById("insta_text").style.color = "#FF0099";
+
+        }
+
+        function instaBeige() {
+            var a = document.getElementById("insta_line").style.fill = "#262628";
+            var a = document.getElementById("insta_line_1").style.fill = "#262628";
+            var a = document.getElementById("insta_line_2").style.fill = "#262628";
+            var b = document.getElementById("insta_text").style.color = "#262628";
+
+        }
+
+        function emailPink() {
+            var a = document.getElementById("email_line").style.fill = "#FF0099";
+
+            var b = document.getElementById("email_text").style.color = "#FF0099";
+        }
+
+        function emailBeige() {
+            var a = document.getElementById("email_line").style.fill = "#262628";
+            var b = document.getElementById("email_text").style.color = "#262628";
+        }
+
+        function phonePink() {
+            var a = document.getElementById("phone_line_1").style.fill = "#FF0099";
+            var b = document.getElementById("phone_line_2").style.fill = "#FF0099";
+            var c = document.getElementById("phone_text").style.color = "#FF0099";
+        }
+
+        function phoneBeige() {
+            var a = document.getElementById("phone_line_1").style.fill = "#262628";
+            var b = document.getElementById("phone_line_2").style.fill = "#262628";
+            var c = document.getElementById("phone_text").style.color = "#262628";
+        }
+        
+        function showWakeUp() {
+            document.getElementById("wake_up").style.display = "block";
+            document.getElementById("wake_up_text_1").style.color = "#FF0099";
+            document.getElementById("wake_up_text_2").style.color = "#FF0099";
+        }
+        function hideWakeUp() {
+            document.getElementById("wake_up").style.display = "none";
+            
+           document.getElementById("wake_up_text_1").style.color = "#AEAE94";
+            document.getElementById("wake_up_text_2").style.color = "#FFFFCC";
+        }
+        function showGym() {
+            document.getElementById("gym").style.display = "block";
+            document.getElementById("gym_text_1").style.color = "#FF0099";
+            document.getElementById("gym_text_2").style.color = "#FF0099";
+        }
+        function hideGym() {
+            document.getElementById("gym").style.display = "none";
+            document.getElementById("gym_text_1").style.color = "#AEAE94";
+            document.getElementById("gym_text_2").style.color = "#FFFFCC";
+        }
+        function showBreakfast() {
+            document.getElementById("breakfast").style.display = "block";
+            document.getElementById("breakfast_text_1").style.color = "#FF0099";
+            document.getElementById("breakfast_text_2").style.color = "#FF0099";
+        }
+        function hideBreakfast() {
+            document.getElementById("breakfast").style.display = "none";
+            document.getElementById("breakfast_text_1").style.color = "#AEAE94";
+            document.getElementById("breakfast_text_2").style.color = "#FFFFCC";
+        }
+        function showTea1() {
+            document.getElementById("tea_1").style.display = "block";
+            document.getElementById("tea_text_1").style.color = "#FF0099";
+            document.getElementById("tea_text_2").style.color = "#FF0099";
+        }
+        function hideTea1() {
+            document.getElementById("tea_1").style.display = "none";
+            document.getElementById("tea_text_1").style.color = "#AEAE94";
+            document.getElementById("tea_text_2").style.color = "#FFFFCC";
+        }
+        function showBriefing() {
+            document.getElementById("briefing").style.display = "block";
+            document.getElementById("briefing_text_1").style.color = "#FF0099";
+            document.getElementById("briefing_text_2").style.color = "#FF0099";
+        }
+        function hideBriefing() {
+            document.getElementById("briefing").style.display = "none";
+            document.getElementById("briefing_text_1").style.color = "#AEAE94";
+            document.getElementById("briefing_text_2").style.color = "#FFFFCC";
+        }
+        function showGetDesigning() {
+            document.getElementById("get_designing").style.display = "block";
+            document.getElementById("get_designing_text_1").style.color = "#FF0099";
+            document.getElementById("get_designing_text_2").style.color = "#FF0099";
+        }
+        function hideGetDesigning() {
+            document.getElementById("get_designing").style.display = "none";
+            document.getElementById("get_designing_text_1").style.color = "#AEAE94";
+            document.getElementById("get_designing_text_2").style.color = "#FFFFCC";
+        }  
+        function showTea2() {
+            document.getElementById("tea_2").style.display = "block";
+             document.getElementById("tea2_text_1").style.color = "#FF0099";
+            document.getElementById("tea2_text_2").style.color = "#FF0099";
+        }
+        function hideTea2() {
+            document.getElementById("tea_2").style.display = "none";
+            document.getElementById("tea2_text_1").style.color = "#AEAE94";
+            document.getElementById("tea2_text_2").style.color = "#FFFFCC";
+        }
+        function showLunch() {
+            document.getElementById("lunch").style.display = "block";
+            document.getElementById("lunch_text_1").style.color = "#FF0099";
+            document.getElementById("lunch_text_2").style.color = "#FF0099";
+        }
+        function hideLunch() {
+            document.getElementById("lunch").style.display = "none";
+            document.getElementById("lunch_text_1").style.color = "#AEAE94";
+            document.getElementById("lunch_text_2").style.color = "#FFFFCC";
+        }
+        
+        function showSnack() {
+            document.getElementById("snack").style.display = "block";
+            document.getElementById("snack_text_1").style.color = "#FF0099";
+            document.getElementById("snack_text_2").style.color = "#FF0099";
+        }
+        function hideSnack() {
+            document.getElementById("snack").style.display = "none";
+            document.getElementById("snack_text_1").style.color = "#AEAE94";
+            document.getElementById("snack_text_2").style.color = "#FFFFCC";
+        }
+        function showBackToWork() {
+            document.getElementById("back_to_work").style.display = "block";
+            document.getElementById("work_text_1").style.color = "#FF0099";
+            document.getElementById("work_text_2").style.color = "#FF0099";
+        }
+        function hideBackToWork() {
+            document.getElementById("back_to_work").style.display = "none";
+            document.getElementById("work_text_1").style.color = "#AEAE94";
+            document.getElementById("work_text_2").style.color = "#FFFFCC";
+        }
+        function showHome() {
+            document.getElementById("home").style.display = "block";
+            document.getElementById("home_text_1").style.color = "#FF0099";
+            document.getElementById("home_text_2").style.color = "#FF0099";
+        }
+        function hideHome() {
+            document.getElementById("home").style.display = "none";
+            document.getElementById("home_text_1").style.color = "#AEAE94";
+            document.getElementById("home_text_2").style.color = "#FFFFCC";
+        }
+        function showDinner() {
+            document.getElementById("dinner").style.display = "block";
+            document.getElementById("dinner_text_1").style.color = "#FF0099";
+            document.getElementById("dinner_text_2").style.color = "#FF0099";
+        }
+        function hideDinner() {
+            document.getElementById("dinner").style.display = "none";
+            document.getElementById("dinner_text_1").style.color = "#AEAE94";
+            document.getElementById("dinner_text_2").style.color = "#FFFFCC";
+        }
+        function showMoreWork() {
+            document.getElementById("more_work").style.display = "block";
+            document.getElementById("work2_text_1").style.color = "#FF0099";
+            document.getElementById("work2_text_2").style.color = "#FF0099";
+        }
+        function hideMoreWork() {
+            document.getElementById("more_work").style.display = "none";
+            document.getElementById("work2_text_1").style.color = "#AEAE94";
+            document.getElementById("work2_text_2").style.color = "#FFFFCC";
+        }
+        function showYoutube() {
+            document.getElementById("youtube").style.display = "block";
+            document.getElementById("youtube_text_1").style.color = "#FF0099";
+            document.getElementById("youtube_text_2").style.color = "#FF0099";
+        }
+        function hideYoutube() {
+            document.getElementById("youtube").style.display = "none";
+            document.getElementById("youtube_text_1").style.color = "#AEAE94";
+            document.getElementById("youtube_text_2").style.color = "#FFFFCC";
+        }
+        
+        function showReading() {
+            document.getElementById("reading").style.display = "block";
+            document.getElementById("reading_text_1").style.color = "#FF0099";
+            document.getElementById("reading_text_2").style.color = "#FF0099";
+        }
+        function hideReading() {
+            document.getElementById("reading").style.display = "none";
+            document.getElementById("reading_text_1").style.color = "#AEAE94";
+            document.getElementById("reading_text_2").style.color = "#FFFFCC";
+        }
+        function showEnd() {
+            document.getElementById("end").style.display = "block";
+            document.getElementById("end_text_1").style.color = "#FF0099";
+            document.getElementById("end_text_2").style.color = "#FF0099";
+        }
+        function hideEnd() {
+            document.getElementById("end").style.display = "none";
+            document.getElementById("end_text_1").style.color = "#AEAE94";
+            document.getElementById("end_text_2").style.color = "#FFFFCC";
+        }
+        
+        
+
+
+        //BACK TO TOP 
+
+        var a = document.getElementById("back_to_top");
+        var b = document.getElementById("back_to_top_hover");
+        var prevScrollpos = window.pageYOffset;
+
+
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            backtoTopFunction()
+            navFunction()
+        };
+
+        function backtoTopFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                a.style.display = "block";
+
+            } else {
+                a.style.display = "none";
+                b.style.display = "none";
+            }
+        }
+
+        function navFunction() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            document.getElementById("back_to_top_hover").style.display = "inline-block";
+
+            document.getElementById("back_to_top").style.display = "none";
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

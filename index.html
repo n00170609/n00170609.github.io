@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--My style sheet-->
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!--Type Links-->
+    <link rel="stylesheet" href="https://use.typekit.net/grh0nnw.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Hover stylesheet-->
+    <link href="css/hover.css" rel="stylesheet" media="all">
+
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+
+    <title>Morgane: Home</title>
+</head>
+
+<body class="dark_bg">
+
+    <!-------------------------Nav---------------------->
+
+    <header>
+        <div id="navbar" class="container-fluid">
+            <div class="mobile_navbar container" id="before">
+                <div class="row">
+                    <div class="col-8 col-sm-10">
+                        <a href="index.html">
+                            <p class="current_page">Morgane</p>
+                        </a>
+                    </div>
+                    <div class="col-4 col-sm-2">
+                        <a href="#">
+                            <button onclick="showMobileMenu();" class="menu_button right_align">Menu</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="desktop_navbar container">
+                <div class="row">
+                    <div class="col-sm-2 col-md-1 col-lg-1 col-xl-1">
+                        <a href="index.html">
+                            <p class="current_page">
+                                Morgane
+                            </p>
+                        </a>
+                    </div>
+                    <div class="offset-sm-4 col-sm-2 offset-md-5 col-md-2 offset-lg-8 col-lg-1  offset-xl-8 col-xl-1">
+                        <a href="work.html">
+                            <p class="other_page right_align">
+                                Work
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1 ">
+                        <a href="play.html">
+                            <p class="other_page right_align">
+                                Play
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                        <a href="about.html">
+                            <p class="other_page right_align">
+                                About
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!--MENU OVERLAY SCREEN-->
+
+    <div id="mobile_menu" class="container-fluid">
+        <div class="mobile_navbar">
+            <div class="container">
+                <div class="row">
+
+                    <div class="offset-9 col-3 offset-sm-10 col-sm-2"><a href="#">
+                            <button onclick="hideMobileMenu();" class="menu_button right_align">Close</button>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        '
+
+        <div class="container bottom">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <h1 class="mobile_nav_headings current_page">Morgane</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="work.html">
+                                <h1 class="mobile_nav_headings other_page">Work</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="play.html">
+                                <h1 class="mobile_nav_headings other_page">Play</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <h1 class="mobile_nav_headings other_page">About</h1>
+                            </a>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------END OF NAVIGATION-------------------->
+
+    <div id="hide">
+
+        <!--HOME SCREEN-->
+        <div id="top" class="container-fluid dark_bg vh_100 center">
+
+
+            <div class="container display_mobile">
+                <div class="spacer_10vh"></div>
+                <h1 class="my_h1">Hi, my name <br>is <a href="about.html"><span onmouseover="pauseAnimation();" onmouseout="playAnimation();" class="pink type_pulse" id="pulse_1">Morgane</span></a>.<br><br> I'm an inter-disciplinary <a href="work.html"><span onmouseover="pauseAnimation();" onmouseout="playAnimation();" class="pink type_pulse" id="pulse_2"><br class="d-xs-block d-sm-block d-md-none"> designer </span></a><br> from <a href="https://www.youtube.com/watch?v=NEoPt7zKb_E" target="_blank"><span onmouseover="pauseAnimation();" onmouseout="playAnimation();" class="pink type_pulse" id="pulse_3">Cork</span></a>.</h1>
+            </div>
+
+
+            <div class="container display_desktop">
+                <div class="spacer_10vh"></div>
+
+                <h1 class="my_h1">
+                    Hi, I'm
+
+                    <a href="about.html">
+                        <span onmouseover="pauseAnimation();" onmouseout="playAnimation();" class="pink type_pulse" id="pulse_4">
+                            Morgane</span></a>. I'm <br>an inter-disciplinary
+
+                    <a href="work.html">
+                        <span onmouseover="pauseAnimation();" onmouseout="playAnimation();" class="pink type_pulse" id="pulse_5">
+                            designer
+                        </span>
+                    </a>
+
+
+                    from
+
+
+                    <a href="https://www.youtube.com/watch?v=NEoPt7zKb_E" target="_blank">
+                        <span onmouseover="pauseAnimation();" onmouseout="playAnimation();" class="pink type_pulse" id="pulse_6">
+                            Cork</span></a>.
+                </h1>
+
+            </div>
+
+
+
+            <div class="spacer_5vh"></div>
+            <a href="#tully">
+                <svg class="home_arrow" version="1.1" id="home_arrow" onmouseover="buttonPink(); pauseAnimation();" onmouseout="buttonBeige(); playAnimation();" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+                    <style type="text/css">
+                        #arrow_fill {
+                            fill: #262628;
+                        }
+
+                        #arrow_stroke,
+                        #arrow_stroke_1 {
+                            fill: #A8A894;
+                        }
+
+                    </style>
+                    <circle id="arrow_fill" cx="499.7" cy="500.3" r="453.7" />
+                    <path id="arrow_stroke" d="M499.7,999c-67.3,0-132.6-13.2-194.1-39.2c-59.4-25.1-112.7-61.1-158.5-106.9c-45.8-45.8-81.7-99.1-106.9-158.5
+	C14.2,632.9,1,567.6,1,500.3C1,433,14.2,367.7,40.2,306.2c25.1-59.4,61.1-112.7,106.9-158.5c45.8-45.8,99.1-81.7,158.5-106.9
+	c61.5-26,126.8-39.2,194.1-39.2c67.3,0,132.6,13.2,194.1,39.2c59.4,25.1,112.7,61.1,158.5,106.9c45.8,45.8,81.7,99.1,106.9,158.5
+	c26,61.5,39.2,126.8,39.2,194.1c0,67.3-13.2,132.6-39.2,194.1c-25.1,59.4-61.1,112.7-106.9,158.5c-45.8,45.8-99.1,81.7-158.5,106.9
+	C632.3,985.8,567,999,499.7,999z M499.7,91.7c-55.2,0-108.7,10.8-159.1,32.1c-48.7,20.6-92.4,50.1-129.9,87.6s-67,81.3-87.6,129.9
+	C101.8,391.6,91,445.1,91,500.3s10.8,108.7,32.1,159.1c20.6,48.7,50.1,92.4,87.6,129.9s81.3,67,129.9,87.6
+	C391,898.2,444.5,909,499.7,909s108.7-10.8,159.1-32.1c48.7-20.6,92.4-50.1,129.9-87.6c37.5-37.5,67-81.3,87.6-129.9
+	c21.3-50.4,32.1-103.9,32.1-159.1s-10.8-108.7-32.1-159.1c-20.6-48.7-50.1-92.4-87.6-129.9c-37.5-37.5-81.3-67-129.9-87.6
+	C608.4,102.5,554.9,91.7,499.7,91.7z" />
+                    <path id="arrow_stroke_1" d="M499.7,752.6c-14,0-27.2-6.5-35.7-17.6L207.5,400.3c-15.1-19.7-11.4-48,8.3-63.1c19.7-15.1,48-11.4,63.1,8.3
+	l220.8,288.1l220.8-288.1c15.1-19.7,43.4-23.5,63.1-8.3c19.7,15.1,23.5,43.4,8.3,63.1L535.4,735
+	C526.9,746.1,513.7,752.6,499.7,752.6z" />
+                </svg></a>
+
+        </div>
+
+        <!--PLASTIC FLOWERS-->
+        <!--mobile-->
+
+        <!--web-->
+        
+        <a href="plastic_flowers.html">
+            <video width="100%" autoplay="autoplay" loop>
+                <source src="imgs/plastic_flowers/pf_tear.mp4" type="video/mp4"/>
+            </video>
+        </a>
+            <div class="container-fluid dark_bg spacer_home"></div>
+
+            <!--TULLY-->
+            <!--mobile-->
+            <a href="tully.html" id="tully">
+                <img src="imgs/tully/tully_home_square.gif" class="home_image_mobile" alt="Tully"></a>
+            <!--web-->
+            <a href="tully.html">
+                <img src="imgs/Tully/tully_abstract.gif" class="home_image_web" alt="Tully">
+            </a>
+
+            <div class="container-fluid dark_bg spacer_home"></div>
+
+            <!--CALYPSO-->
+            <!--mobile-->
+            <a href="calypso.html">
+                <img src="imgs/calypso/cover_square.jpg" class="home_image_mobile" alt="Calypso"></a>
+            <!--web-->
+            <a href="calypso.html">
+                <img src="imgs/calypso/cover_rectangle.jpg" class="home_image_web" alt="Calypso">
+            </a>
+
+            <div class="container-fluid dark_bg spacer_home"></div>
+
+            <!--MOTION GRAPHIC-->
+            <!--mobile-->
+            <a href="phantom_thread.html">
+                <img src="imgs/phantom_thread/mobile_home_gif.gif" class="home_image_mobile" alt="Phantom Thread"></a>
+            <!--web-->
+            <a href="phantom_thread.html"><img src="imgs/phantom_thread/desktop_home_gif.gif" class="home_image_web" alt="Phantom Thread"></a>
+
+            <div class="container-fluid dark_bg spacer_home"></div>
+
+
+            <!--MODERNISM-->
+            <!--mobile-->
+            <a href="modernism.html">
+                <img src="imgs/modernism/cover_square.jpg" class="home_image_mobile" alt="Modernism & Hygiene"></a>
+            <!--web-->
+            <a href="modernism.html"><img src="imgs/modernism/cover_rectangle.jpg" class="home_image_web" alt="Modernism & Hygiene"></a>
+
+
+
+
+
+
+            <!--END SCREEN-->
+            <div class="container-fluid dark_bg vh_100 center">
+                <a href="#top">
+                    <svg class="home_arrow vertical_flip" version="1.1" id="home_arrow" onmouseover="buttonPink1(); pauseAnimation();" onmouseout="buttonBeige1(); playAnimation();" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+                        <style type="text/css">
+                            #arrow_fill_1 {
+                                fill: #262628;
+                            }
+
+                            #arrow_stroke_2,
+                            #arrow_stroke_3 {
+                                fill: #A8A894;
+                            }
+
+                        </style>
+                        <circle id="arrow_fill_1" cx="499.7" cy="500.3" r="453.7" />
+                        <path id="arrow_stroke_2" d="M499.7,999c-67.3,0-132.6-13.2-194.1-39.2c-59.4-25.1-112.7-61.1-158.5-106.9c-45.8-45.8-81.7-99.1-106.9-158.5
+	C14.2,632.9,1,567.6,1,500.3C1,433,14.2,367.7,40.2,306.2c25.1-59.4,61.1-112.7,106.9-158.5c45.8-45.8,99.1-81.7,158.5-106.9
+	c61.5-26,126.8-39.2,194.1-39.2c67.3,0,132.6,13.2,194.1,39.2c59.4,25.1,112.7,61.1,158.5,106.9c45.8,45.8,81.7,99.1,106.9,158.5
+	c26,61.5,39.2,126.8,39.2,194.1c0,67.3-13.2,132.6-39.2,194.1c-25.1,59.4-61.1,112.7-106.9,158.5c-45.8,45.8-99.1,81.7-158.5,106.9
+	C632.3,985.8,567,999,499.7,999z M499.7,91.7c-55.2,0-108.7,10.8-159.1,32.1c-48.7,20.6-92.4,50.1-129.9,87.6s-67,81.3-87.6,129.9
+	C101.8,391.6,91,445.1,91,500.3s10.8,108.7,32.1,159.1c20.6,48.7,50.1,92.4,87.6,129.9s81.3,67,129.9,87.6
+	C391,898.2,444.5,909,499.7,909s108.7-10.8,159.1-32.1c48.7-20.6,92.4-50.1,129.9-87.6c37.5-37.5,67-81.3,87.6-129.9
+	c21.3-50.4,32.1-103.9,32.1-159.1s-10.8-108.7-32.1-159.1c-20.6-48.7-50.1-92.4-87.6-129.9c-37.5-37.5-81.3-67-129.9-87.6
+	C608.4,102.5,554.9,91.7,499.7,91.7z" />
+                        <path id="arrow_stroke_3" d="M499.7,752.6c-14,0-27.2-6.5-35.7-17.6L207.5,400.3c-15.1-19.7-11.4-48,8.3-63.1c19.7-15.1,48-11.4,63.1,8.3
+	l220.8,288.1l220.8-288.1c15.1-19.7,43.4-23.5,63.1-8.3c19.7,15.1,23.5,43.4,8.3,63.1L535.4,735
+	C526.9,746.1,513.7,752.6,499.7,752.6z" />
+                    </svg></a>
+                <div class="spacer_5vh"></div>
+
+                <div class="container display_mobile">
+                    <h1 class="my_h1"><span class="pink type_pulse" onmouseover="pauseAnimation();" onmouseout="playAnimation();" id="pulse_7">G'wan</span>, click <br>on something.<br><br> You'll like<br>what you see. </h1>
+                </div>
+
+
+                <div class="container display_desktop">
+                    <div class="nav_spacer"></div>
+                    <h1 class="my_h1"><a href="work.html"><span onmouseover="pauseAnimation();" onmouseout="playAnimation();" class="pink type_pulse" id="pulse_8">G'wan</span></a>, click on something. You'll <br>like what you see. </h1>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!-------------------MOBILE FOOTER----------------->
+            <footer>
+                <div class="container-fluid">
+                    <div class="mobile_footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3 col-sm-2">
+                                    <p class="footer_type">Insta:<br>E-mail:<br>Mobile:</p>
+                                </div>
+                                <div class="col-8 col-sm-10">
+                                    <p class="footer_type"><span class="regular">morgane.aesthetic<br>morganekenneally@gmail.com<br>086–123–4567</span></p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <!--DESKTOP FOOTER-->
+
+                    <div class="desktop_footer">
+
+                        <div class="container">
+
+                            <div class="row">
+
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <p class="footer_type">Instagram: <span class="regular">morgane.aesthetic</span></p>
+                                </div>
+
+                                <div class=" col-md-5 col-lg-4 col-xl-4">
+                                    <p class="footer_type center_align">E-mail: <span class="regular">morganekenneally@gmail.com</span></p>
+                                </div>
+
+                                <div class=" col-md-3 offset-lg-1 col-lg-3 offset-xl-1 col-xl-3">
+                                    <p class="footer_type right_align">Mobile: <span class="regular">086–123–4356</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+
+
+    <!------------------------JAVASCRIPT--------------------->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+
+        function buttonPink() {
+
+            document.getElementById("arrow_stroke").style.fill = "#FF0099";
+            document.getElementById("arrow_stroke_1").style.fill = "#FF0099";
+        }
+
+        function buttonBeige() {
+
+            document.getElementById("arrow_stroke").style.fill = "#A8A894";
+            document.getElementById("arrow_stroke_1").style.fill = "#A8A894";
+        }
+
+        function buttonPink1() {
+
+            document.getElementById("arrow_stroke_2").style.fill = "#FF0099";
+            document.getElementById("arrow_stroke_3").style.fill = "#FF0099";
+        }
+
+        function buttonBeige1() {
+
+            document.getElementById("arrow_stroke_2").style.fill = "#A8A894";
+            document.getElementById("arrow_stroke_3").style.fill = "#A8A894";
+        }
+
+
+
+        function showMobileMenu() {
+            var x = document.getElementById("mobile_menu");
+            var y = document.getElementById("hide");
+            var z = document.getElementById("before");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "block";
+                z.style.display = "block";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+            }
+        }
+
+        function hideMobileMenu() {
+            var x = document.getElementById("mobile_menu");
+            var y = document.getElementById("hide");
+            var z = document.getElementById("before");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+            } else {
+                x.style.display = "none";
+                y.style.display = "block";
+                z.style.display = "block";
+            }
+        }
+
+        function pauseAnimation() {
+            document.getElementById("pulse_1").style.animationPlayState = "paused";
+            document.getElementById("pulse_2").style.animationPlayState = "paused";
+            document.getElementById("pulse_3").style.animationPlayState = "paused";
+            document.getElementById("pulse_4").style.animationPlayState = "paused";
+            document.getElementById("pulse_5").style.animationPlayState = "paused";
+            document.getElementById("pulse_6").style.animationPlayState = "paused";
+            document.getElementById("pulse_7").style.animationPlayState = "paused";
+            document.getElementById("pulse_8").style.animationPlayState = "paused";
+        }
+
+        function playAnimation() {
+            document.getElementById("pulse_1").style.animationPlayState = "running";
+            document.getElementById("pulse_2").style.animationPlayState = "running";
+            document.getElementById("pulse_3").style.animationPlayState = "running";
+            document.getElementById("pulse_4").style.animationPlayState = "running";
+            document.getElementById("pulse_5").style.animationPlayState = "running";
+            document.getElementById("pulse_6").style.animationPlayState = "running";
+            document.getElementById("pulse_7").style.animationPlayState = "running";
+            document.getElementById("pulse_8").style.animationPlayState = "running";
+
+        }
+
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--My style sheet-->
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!--Type Links-->
+    <link rel="stylesheet" href="https://use.typekit.net/grh0nnw.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Hover stylesheet-->
+    <link href="css/hover.css" rel="stylesheet" media="all">
+
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+
+    <title>Morgane: Work</title>
+</head>
+
+<body>
+
+    <!-------------------------Nav----------------------->
+
+    <header>
+        <div id="navbar" class="container-fluid">
+            <div class="mobile_navbar container" id="before">
+                <div class="row">
+                    <div class="col-8 col-sm-10">
+                        <a href="index.html">
+                            <p class="other_page">Morgane</p>
+                        </a>
+                    </div>
+                    <div class="col-4 col-sm-2">
+                        <a href="#">
+                            <button onclick="showMobileMenu();" class="menu_button right_align">Menu</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desktop_navbar container">
+                <div class="row">
+                    <div class="col-sm-2 col-md-1 col-lg-1 col-xl-1">
+                        <a href="index.html">
+                            <p class="other_page">
+                                Morgane
+                            </p>
+                        </a>
+                    </div>
+                    <div class="offset-sm-4 col-sm-2 offset-md-5 col-md-2 offset-lg-8 col-lg-1  offset-xl-8 col-xl-1">
+                        <a href="work.html">
+                            <p class="current_page right_align">
+                                Work
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1 ">
+                        <a href="play.html">
+                            <p class="other_page right_align">
+                                Play
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                        <a href="about.html">
+                            <p class="other_page right_align">
+                                About
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <!--MENU OVERLAY SCREEN-->
+
+    <div id="mobile_menu" class="container-fluid">
+        <div class="mobile_navbar">
+            <div class="container">
+                <div class="row">
+
+                    <div class="offset-9 col-3 offset-sm-10 col-sm-2"><a href="#">
+                            <button onclick="hideMobileMenu();" class="menu_button right_align">Close</button>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+        '
+
+        <div class="container bottom">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <h1 class="mobile_nav_headings other_page">Morgane</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="work.html">
+                                <h1 class="mobile_nav_headings current_page">Work</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="play.html">
+                                <h1 class="mobile_nav_headings other_page">Play</h1>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <h1 class="mobile_nav_headings other_page">About</h1>
+                            </a>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------END OF NAVIGATION-------------------->
+
+
+
+    <div id="hide">
+        <div class="container-fluid light_bg ">
+            <div class="container">
+                <div class="nav_spacer"></div>
+                <div class="nav_spacer"></div>
+                <div class="spacer_10"></div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="project_thumbnail">
+                            <a href="plastic_flowers.html">
+
+                                <video width="100%" autoplay="autoplay" loop alt="Plastic Flowers Thumbnail" onmouseover="plasticflowersHover();" onclick="plasticflowersActive();" onmouseout="plasticflowersBeige();">
+                                    <source src="imgs/plastic_flowers/pf_title_short.mp4" type="video/mp4" />
+                                </video>
+                            </a>
+
+                        </div>
+                        <div class="spacer_10"></div>
+                        <a href="plastic_flowers.html">
+                            <p class="work_heading" id="plasticflowers_text" onmouseover="plasticflowersHover();" onclick="plasticflowersActive();" onmouseout="plasticflowersBeige();">Plastic Flowers</p>
+                        </a>
+                        <p class="work_caption">Creating the title sequence for the short film 'Plastic Flowers.'</p>
+                        <div class="spacer_20"></div>
+                    </div>
+
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="project_thumbnail">
+                            <a href="modernism.html">
+
+                                <img src="imgs/modernism/cover_rectangle.jpg" width="100%" alt="Modernism & Hygiene Thumbnail" onmouseover="modernismHover();" onclick="modernismActive();" onmouseout="modernismBeige();">
+                            </a>
+
+                        </div>
+
+                        <div class="spacer_10"></div>
+                        <a href="modernism.html">
+                            <p class="work_heading" id="modernism_text" onmouseover="modernismHover();" onclick="modernismActive();" onmouseout="modernismBeige();">
+                                Modernism & Hygiene</p>
+                        </a>
+                        <p class="work_caption">Catalogue and event planning for an exhibition based on my essay.</p>
+                        <div class="spacer_20"></div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="project_thumbnail">
+                            <a href="tully.html">
+
+                                <img src="imgs/Tully/tully_abstract.gif" alt="Tully Educate Together Thumbnail" width="100%" onmouseover="tullyHover();" onclick="tullyActive();" onmouseout="tullyBeige();">
+                            </a>
+
+                        </div>
+                        <div class="spacer_10"></div>
+                        <a href="tully.html">
+                            <p class="work_heading" id="tully_text" onmouseover="tullyHover();" onclick="tullyActive();" onmouseout="tullyBeige();">Tully Educate Together</p>
+                        </a>
+                        <p class="work_caption">Brand Identity for a new Educate Together primary school.</p>
+                        <div class="spacer_20"></div>
+                    </div>
+
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="project_thumbnail">
+                            <a href="modernism.html">
+
+                                <img src="imgs/modernism/cover_rectangle.jpg" width="100%" alt="Modernism & Hygiene Thumbnail" onmouseover="modernismHover();" onclick="modernismActive();" onmouseout="modernismBeige();">
+                            </a>
+
+                        </div>
+
+                        <div class="spacer_10"></div>
+                        <a href="modernism.html">
+                            <p class="work_heading" id="modernism_text" onmouseover="modernismHover();" onclick="modernismActive();" onmouseout="modernismBeige();">
+                                Modernism & Hygiene</p>
+                        </a>
+                        <p class="work_caption">Catalogue and event planning for an exhibition based on my essay.</p>
+                        <div class="spacer_20"></div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="project_thumbnail">
+                            <a href="calypso.html">
+                                <img src="imgs/calypso/cover_rectangle.jpg" alt="Calypso Type Specimen Thumbnail" width="100%" onmouseover="calypsoHover();" onclick="calypsoActive();" onmouseout="calypsoBeige();">
+                            </a>
+
+                        </div>
+
+                        <div class="spacer_10"></div>
+                        <a href="calypso.html">
+                            <p class="work_heading" id="calypso_text" onmouseover="calypsoHover();" onclick="calypsoActive();" onmouseout="calypsoBeige();">
+                                Calypso Type Specimen</p>
+                        </a>
+
+                        <p class="work_caption">Micro-site and booklet to promote the launch of Calypso Typeface.</p>
+
+                        <div class="spacer_20"></div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <div class="project_thumbnail">
+                            <a href="phantom_thread.html">
+
+                                <img src="imgs/phantom_thread/desktop_home_gif.gif" width="100%" alt="Phantom Thread Thumbnail" onmouseover="phantomHover();" onclick="phantomActive();" onmouseout="phantomBeige();">
+                            </a>
+
+                        </div>
+                        <div class="spacer_10"></div>
+                        <a href="phantom_thread.html">
+                            <p class="work_heading" id="phantom_text" onmouseover="phantomHover();" onclick="phantomActive();" onmouseout="phantomBeige();">Phantom Thread — House of Woodcock</p>
+                        </a>
+
+                        <p class="work_caption">Motion graphic using abstract forms to visualise a piece of music.</p>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="spacer_20"></div>
+        </div>
+
+
+        <!-------------------MOBILE FOOTER----------------->
+        <footer>
+            <div class="container-fluid">
+                <div class="mobile_footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-sm-2">
+                                <p class="footer_type">Insta:<br>E-mail:<br>Mobile:</p>
+                            </div>
+                            <div class="col-8 col-sm-10">
+                                <p class="footer_type"><span class="regular">morgane.aesthetic<br>morganekenneally@gmail.com<br>086–123–4567</span></p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <!--DESKTOP FOOTER-->
+
+                <div class="desktop_footer">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-md-4 col-lg-4 col-xl-4">
+                                <p class="footer_type">Instagram: <span class="regular">morgane.aesthetic</span></p>
+                            </div>
+
+                            <div class=" col-md-5 col-lg-4 col-xl-4">
+                                <p class="footer_type center_align">E-mail: <span class="regular">morganekenneally@gmail.com</span></p>
+                            </div>
+
+                            <div class=" col-md-3 offset-lg-1 col-lg-3 offset-xl-1 col-xl-3">
+                                <p class="footer_type right_align">Mobile: <span class="regular">086–123–4356</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+
+
+        function showMobileMenu() {
+            var x = document.getElementById("mobile_menu");
+            var y = document.getElementById("hide");
+            var z = document.getElementById("before");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "block";
+                z.style.display = "block";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+            }
+        }
+
+        function hideMobileMenu() {
+            var x = document.getElementById("mobile_menu");
+            var y = document.getElementById("hide");
+            var z = document.getElementById("before");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+            } else {
+                x.style.display = "none";
+                y.style.display = "block";
+                z.style.display = "block";
+            }
+        }
+
+        
+        function plasticflowersHover() {
+            document.getElementById("plasticflowers_text").style.color = "#FF0099";
+        }
+
+        function plasticflowersActive() {
+            document.getElementById("plasticflowers_text").style.color = "#FF0099";
+        }
+
+        function plasticflowersBeige() {
+            document.getElementById("plasticflowers_text").style.color = "#A8A894";
+        }
+
+
+        function tullyHover() {
+            document.getElementById("tully_text").style.color = "#FF0099";
+        }
+
+        function tullyActive() {
+            document.getElementById("tully_text").style.color = "#FF0099";
+        }
+
+        function tullyBeige() {
+            document.getElementById("tully_text").style.color = "#A8A894";
+        }
+
+
+        function modernismHover() {
+            document.getElementById("modernism_text").style.color = "#FF0099";
+        }
+
+        function modernismActive() {
+            document.getElementById("modernism_text").style.color = "#FF0099";
+        }
+
+        function modernismBeige() {
+            document.getElementById("modernism_text").style.color = "#A8A894";
+        }
+
+        function calypsoHover() {
+            document.getElementById("calypso_text").style.color = "#FF0099";
+        }
+
+        function calypsoActive() {
+            document.getElementById("calypso_text").style.color = "#FF0099";
+        }
+
+        function calypsoBeige() {
+            document.getElementById("calypso_text").style.color = "#A8A894";
+        }
+
+        function phantomHover() {
+            document.getElementById("phantom_text").style.color = "#FF0099";
+        }
+
+        function phantomActive() {
+            document.getElementById("phantom_text").style.color = "#FF0099";
+        }
+
+        function phantomBeige() {
+            document.getElementById("phantom_text").style.color = "#A8A894";
+        }
+
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
